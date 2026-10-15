@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff">
+  <meta name="description" content="Fruta fresca, escolhida pela qualidade e sabor. Descubra os nossos favoritos da estação e receba novidades da colheita.">
+  <title>Fruit — Frescura da colheita</title>
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="nav__logo" href="#home" aria-label="Fruit — início"><img src="assets/img/logo.png" alt=""> Fruit<span>.</span></a>
+      <button class="nav__toggle" id="nav-toggle" type="button" aria-label="Abrir navegação" aria-expanded="false" aria-controls="nav-menu">☰</button>
+      <div class="nav__menu" id="nav-menu">
+        <button class="nav__close" id="nav-close" type="button" aria-label="Fechar navegação">×</button>
+        <ul class="nav__list">
+          <li><a class="nav__link active-link" href="#home">Início</a></li>
+          <li><a class="nav__link" href="#about">A nossa história</a></li>
+          <li><a class="nav__link" href="#popular">Fruta da estação</a></li>
+          <li><a class="nav__link" href="#join">Novidades</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-label="Ativar tema escuro" aria-pressed="false" title="Alternar tema">◐</button>
+      </div>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <section class="home section container" id="home" aria-labelledby="home-title">
+      <div class="home__content" data-reveal>
+        <p class="eyebrow">Fresca da colheita, cheia de vida</p>
+        <h1 id="home-title">SABOREIE A<br>MELHOR FRUTA<br><span>FRESCA</span></h1>
+        <p>Cores vibrantes, sabor autêntico e fruta fresca para tornar especiais os momentos de todos os dias.</p>
+        <a class="button" href="#popular">Descobrir a colheita <span aria-hidden="true">↗</span></a>
+        <span class="home__note"><i aria-hidden="true">✳</i> Escolhida com cuidado, pronta a saborear</span>
+      </div>
+      <div class="home__visual" data-reveal>
+        <span class="home__badge"><strong>100%</strong><span>fresca e<br>deliciosa</span></span>
+        <img class="home__image" src="assets/img/home-fruits.png" alt="Seleção colorida de fruta tropical fresca" fetchpriority="high">
+        <span class="home__decor home__decor--one" aria-hidden="true">✳</span>
+        <span class="home__decor home__decor--two" aria-hidden="true">✦</span>
+      </div>
+    </section>
+
+    <section class="enjoy section" aria-labelledby="enjoy-title">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Um pouco de frescura em cada dentada</p>
+          <h2 class="section__title" id="enjoy-title">COMA BEM. SABOREIE. SINTA-SE BEM.</h2>
+          <p>Pequenos prazeres da natureza, para desfrutar todos os dias.</p>
+        </div>
+        <div class="enjoy__grid">
+          <article data-reveal><img src="assets/img/enjoy-1.png" alt="Fruta fresca e sumarenta" loading="lazy"><h3>Fresca e sumarenta</h3><p>Fruta doce e vibrante, escolhida pelo seu sabor natural.</p></article>
+          <article data-reveal><img src="assets/img/enjoy-2.png" alt="Fruta colorida e deliciosa" loading="lazy"><h3>Colorida e deliciosa</h3><p>Os sabores de sempre para tornar especial qualquer lanche.</p></article>
+          <article data-reveal><img src="assets/img/enjoy-3.png" alt="Fruta nutritiva para partilhar" loading="lazy"><h3>Boa em qualquer dia</h3><p>O melhor da natureza para desfrutar e partilhar.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section container" id="about" aria-labelledby="about-title">
+      <div class="about__visual" data-reveal>
+        <img src="assets/img/about-fruits.png" alt="Fruta fresca, colhida com cuidado e pronta a partilhar" loading="lazy">
+        <span class="about__caption">Da terra para a sua mesa</span>
+      </div>
+      <div class="about__content" data-reveal>
+        <p class="eyebrow">De produtores que cuidam</p>
+        <h2 id="about-title">LEVAMOS<br>FRESCURA A CASA.</h2>
+        <p>Valorizamos os produtores que tratam cada colheita com atenção. Descubra fruta escolhida pela qualidade, pelo sabor e pela alegria que traz à sua mesa.</p>
+        <ul class="about__points">
+          <li><span aria-hidden="true">✓</span> Selecionada pela qualidade</li>
+          <li><span aria-hidden="true">✓</span> Sabor natural e autêntico</li>
+          <li><span aria-hidden="true">✓</span> Frescura para todos os dias</li>
+        </ul>
+        <a class="text-link" href="#popular">Conheça os favoritos <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="popular section container" id="popular" aria-labelledby="popular-title">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Escolhida com cuidado</p>
+        <h2 class="section__title" id="popular-title">OS FAVORITOS DA ESTAÇÃO</h2>
+        <p>Fruta colorida, saborosa e pronta para fazer parte do seu dia.</p>
+      </div>
+      <div class="popular__grid">
+        <article data-reveal><span class="fruit-number">01</span><img src="assets/img/popular-1.png" alt="Maçã fresca e crocante" loading="lazy"><h3>Maçã do pomar</h3><p>Crocante · favorita do pomar</p></article>
+        <article data-reveal><span class="fruit-number">02</span><img src="assets/img/popular-2.png" alt="Melancia fresca e sumarenta" loading="lazy"><h3>Melancia</h3><p>Sumarenta · sabor de verão</p></article>
+        <article data-reveal><span class="fruit-number">03</span><img src="assets/img/popular-3.png" alt="Ananás tropical acabado de colher" loading="lazy"><h3>Ananás</h3><p>Tropical · toque agridoce</p></article>
+        <article data-reveal><span class="fruit-number">04</span><img src="assets/img/popular-4.png" alt="Bananas maduras e doces" loading="lazy"><h3>Banana</h3><p>Doce · lanche prático</p></article>
+        <article data-reveal><span class="fruit-number">05</span><img src="assets/img/popular-5.png" alt="Morangos vermelhos e frescos" loading="lazy"><h3>Morango</h3><p>Vibrante · doce e delicado</p></article>
+        <article data-reveal><span class="fruit-number">06</span><img src="assets/img/popular-6.png" alt="Manga madura e sumarenta" loading="lazy"><h3>Manga</h3><p>Suave · amadurecida ao sol</p></article>
+      </div>
+    </section>
+
+    <section class="join section" id="join" aria-labelledby="join-title">
+      <div class="join__inner container" data-reveal>
+        <p class="eyebrow">Uma nota fresca da nossa parte</p>
+        <h2 id="join-title">O MELHOR DA<br>ÉPOCA ESTÁ A CHEGAR.</h2>
+        <p>Receba novidades da colheita, ideias para servir e notícias da nossa comunidade de fruta.</p>
+        <form class="subscribe-form" data-demo-form>
+          <label class="visually-hidden" for="fruit-email">O seu endereço de e-mail</label>
+          <input id="fruit-email" type="email" name="email" placeholder="O seu endereço de e-mail" autocomplete="email" required>
+          <button class="button" type="submit">Quero receber <span aria-hidden="true">→</span></button>
+          <p class="form-status" role="status" aria-live="polite" aria-atomic="true">Formulário de demonstração: os seus dados não são enviados nem guardados.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container">
+    <a class="nav__logo" href="#home"><img src="assets/img/logo.png" alt=""> Fruit<span>.</span></a>
+    <p>Boa fruta, cultivada com cuidado.</p>
+    <nav aria-label="Navegação do rodapé"><a href="#about">A nossa história</a><a href="#popular">Fruta da estação</a><a href="#join">Novidades</a></nav>
+    <small>© <span data-year></span> Fruit. Demonstração de projeto.</small>
+  </footer>
+</body>
+</html>
